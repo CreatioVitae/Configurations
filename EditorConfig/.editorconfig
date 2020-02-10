@@ -35,7 +35,7 @@ dotnet_style_qualification_for_property = false:warning
 dotnet_style_predefined_type_for_locals_parameters_members = true:error
 dotnet_style_predefined_type_for_member_access = true:error
 
-# かっこの設定（演算子の設定字はかっこ推奨。好みの問題なので、リファクタリングのみ有効。）
+# かっこの設定（演算子はかっこ推奨。好みの問題なので、リファクタリングのみ有効。）
 dotnet_style_parentheses_in_arithmetic_binary_operators = always_for_clarity:silent
 dotnet_style_parentheses_in_other_binary_operators = always_for_clarity:silent
 dotnet_style_parentheses_in_other_operators = never_if_unnecessary:silent
@@ -66,7 +66,7 @@ dotnet_code_quality_unused_parameters = all:suggestion
 
 #### C# コーディング規則 ####
 
-# var を優先(built-in型、右辺が自明のパターンでは警告扱い。ラムダやswitch式などのような左辺見て推論する系のようなそもそも推論できないやつ以外は全部var推奨)
+# var を優先(built-in型、右辺が自明のパターンでは警告扱い。ラムダやswitch式などのような左辺見て推論する系のようなそもそも推論できないやつ以外は全部var推奨。)
 csharp_style_var_elsewhere = true:suggestion
 csharp_style_var_for_built_in_types = true:warning
 csharp_style_var_when_type_is_apparent = true:warning
@@ -81,7 +81,7 @@ csharp_style_expression_bodied_methods = true:suggestion
 csharp_style_expression_bodied_operators = true:silent
 csharp_style_expression_bodied_properties = true:suggestion
 
-# パターン マッチング設定（パターンマッチングが書けるケースではパターンマッチングの使用推奨）
+# パターン マッチング設定（パターンマッチングが書けるケースではパターンマッチングの使用推奨。）
 csharp_style_pattern_matching_over_as_with_null_check = true:warning
 csharp_style_pattern_matching_over_is_with_cast_check = true:warning
 csharp_style_prefer_switch_expression = true:warning
