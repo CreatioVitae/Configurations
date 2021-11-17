@@ -225,6 +225,9 @@ csharp_style_prefer_pattern_matching=true:suggestion
 # CS8600: Null リテラルまたは Null の可能性がある値を Null 非許容型に変換しています。
 dotnet_diagnostic.CS8600.severity = error
 
+# CS8601: Null 参照代入の可能性があります。
+dotnet_diagnostic.CS8601.severity = error
+
 # CS8602: null 参照の可能性があるものの逆参照です。
 dotnet_diagnostic.CS8602.severity = error
 
